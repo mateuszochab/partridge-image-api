@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: partridge-image-api
+  cloud:
+    config:
+      uri: "https://partridge-config-server.cfapps.io/"
+  profiles:
+    active: ""
